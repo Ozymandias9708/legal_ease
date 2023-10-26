@@ -1,9 +1,6 @@
 import './App.css';
-import Login from './components/Login';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Register from './components/Register';
-import UserType from './components/UserType';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
 
