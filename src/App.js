@@ -7,7 +7,7 @@ import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 function App() {
   const history = useHistory()
-  const handleClick1=() => {
+  const handleClick1=() => { 
     history.push("clientHome")
   }
   const handleClick2=() => {
