@@ -1,0 +1,1 @@
+export const RequestedCase = [...Array(8).fill({name: 'Shubham',case: 'Ozzy',posted: new Date(Date.now()).toDateString()})]
