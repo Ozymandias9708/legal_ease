@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ProviderNavbar from './ProviderNavbar'
 import { RequestedCase } from './RequestCases'
+import ProviderFooter from './ProviderFooter';
 
 const Requests = () => {
 
@@ -73,7 +74,7 @@ const Requests = () => {
           </tbody>
         </table>
       </div>
-
+      <ProviderFooter />
     </div>
   )
 }

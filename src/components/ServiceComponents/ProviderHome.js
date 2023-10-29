@@ -52,7 +52,7 @@ const ProviderHome = () => {
           <tbody>
             {
               ActiveCases.map((elem,index) => {
-                return (<tr className={`border-b bg-gray-100 ${(index+1)%2 === 0? 'bg-blue-200':''}`} key={index}>
+                return (<tr className={`border-b  ${(index+1)%2 === 0? 'bg-blue-100':''}`} key={index}>
                   <th scope="row" className="px-6 py-2 font-medium  text-center">
                     {elem.name}
                   </th>

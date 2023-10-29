@@ -1,6 +1,7 @@
 import React from 'react'
 import ProviderNavbar from './ProviderNavbar'
 import { CasesTakenlist } from './CasesTakenlist'
+import ProviderFooter from './ProviderFooter'
 
 const CasesTaken = () => {
   return (
@@ -27,7 +28,7 @@ const CasesTaken = () => {
           <tbody>
             {
               CasesTakenlist.map((elem,index) => {
-                return (<tr className={`border-b bg-gray-100 ${(index+1)%2 === 0? 'bg-blue-200':''}`} key={index}>
+                return (<tr className={`border-b  ${(index+1)%2 === 0? 'bg-blue-100':''}`} key={index}>
                   <th scope="row" className="px-6 py-2 font-medium  text-center">
                     {elem.name}
                   </th>
@@ -46,6 +47,7 @@ const CasesTaken = () => {
           </tbody>
         </table>
       </div>
+      <ProviderFooter/>
     </div>
   )
 }
